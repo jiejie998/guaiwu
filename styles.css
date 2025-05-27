@@ -1,0 +1,97 @@
+
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F7;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: #A1C4FF; /* Apple typical light blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #1C3D6A; /* Darker blue */
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #1C3D6A;
+}
+
+/* Game iframe section */
+.game-iframe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-iframe iframe {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Game description section */
+.game-description {
+    background-color: #F0F8FF; /* Light sky blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.game-description h2 {
+    font-size: 1.8rem;
+    color: #1C3D6A;
+    margin-bottom: 10px;
+}
+
+.game-description p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .game-iframe iframe {
+        height: 400px;
+    }
+
+    .game-description h2 {
+        font-size: 1.6rem;
+    }
+
+    .game-description p {
+        font-size: 0.9rem;
+    }
+}
